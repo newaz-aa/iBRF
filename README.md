@@ -34,6 +34,11 @@ Original BRF classifier implementation in the imblearn library: https://imbalanc
 ![App Screenshot](https://github.com/newaz-aa/iBRF/blob/main/ibrf_4.png)
 
 
+## Note
+The code is written using the BRF classifier implementation of the imblearn library.
+
+LemaÃŽtre, G., Nogueira, F. and Aridas, C.K., 2017. Imbalanced-learn: A python toolbox to tackle the curse of imbalanced datasets in machine learning. Journal of machine learning research, 18(17), pp.1-5. 
+
 ## BibTex Citation
 
 ```
