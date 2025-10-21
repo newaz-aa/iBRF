@@ -1,7 +1,7 @@
 
 # iBRF
 
-This repository contains the codes and supplementary files for the proposed iBRF classifier.
+This repository contains the code and supplementary files for the proposed iBRF (Improved Balanced Random Forest) classifier. 
 
 ## Dependencies
 
@@ -25,7 +25,7 @@ This paper proposes a modification to the original BRF classifier for enhanced p
 
 In the original algorithm, the Random Undersampling (RUS) technique is utilized to balance the bootstrap samples. However, randomly eliminating too many samples from the data leads to significant data loss, resulting in a major decline in performance.
 
-This paper proposed a novel sampling approach that, when incorporated into the framework of the RF classifier, achieves better and more generalized prediction performance. The proposed algorithm outperforms the original BRF classifier by a large margin. 
+This paper proposed a novel sampling approach that, when incorporated into the framework of the RF classifier, achieves better and more generalized prediction performance. The proposed algorithm outperforms the original BRF classifier. 
 
 
 Original BRF classifier implementation in the imblearn library: https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.BalancedRandomForestClassifier.html
@@ -35,6 +35,8 @@ Original BRF classifier implementation in the imblearn library: https://imbalanc
 
 
 ## Note
+This repository currently contains the earliest version of the proposed iBRF framework. A more advanced version is currently under development.
+
 The code is written using the BRF classifier implementation of the imblearn library.
 
 LemaÃŽtre, G., Nogueira, F. and Aridas, C.K., 2017. Imbalanced-learn: A python toolbox to tackle the curse of imbalanced datasets in machine learning. Journal of machine learning research, 18(17), pp.1-5. 
