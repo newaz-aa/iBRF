@@ -37,6 +37,17 @@ Original BRF classifier implementation in the imblearn library: https://imbalanc
 pip install iBRF
 ```
 
+## Usage
+```
+from ibrf import iBRF
+
+clf = iBRF(balance_split=0.65, n_estimators=200, random_state=42)
+clf.fit(X_train, y_train)
+y_pred = clf.predict(X_test)
+```
+
+
+
 ## Screenshots
 
 ![App Screenshot](https://github.com/newaz-aa/iBRF/blob/main/ibrf_4.png)
