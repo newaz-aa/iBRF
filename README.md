@@ -29,6 +29,14 @@ This paper proposed a novel sampling approach that, when incorporated into the f
 
 
 Original BRF classifier implementation in the imblearn library: https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.BalancedRandomForestClassifier.html
+
+
+
+## Installation
+```bash
+pip install iBRF
+```
+
 ## Screenshots
 
 ![App Screenshot](https://github.com/newaz-aa/iBRF/blob/main/ibrf_4.png)
